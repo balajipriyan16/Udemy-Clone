@@ -25,16 +25,16 @@ A responsive Udemy-inspired online learning platform built using **HTML** and **
 ## 📂 Project Structure
 
 ```text
-Techademy/
-│
+.
 ├── index.html
 ├── style.css
-├── imgs/
-│   ├── 1.jpg
-│   ├── 2.jpg
-│   └── ...
-└── README.md
+├── README.md
+└── imgs/
+    ├── 1.jpg
+    ├── 2.jpg
+    └── ...
 ```
+
 
 ## 📱 Responsive Design
 
