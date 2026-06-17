@@ -15,6 +15,10 @@ body{
     justify-content: space-between;
     padding: 10px;
     border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 }
 
 .Title{
@@ -38,6 +42,7 @@ body{
     border: none;
     font-size: 16px;
     width: 100%;
+    background-color: transparent;
 }
 
 .Input input:focus{
@@ -50,6 +55,27 @@ body{
     align-items: center;
     gap:10px;
     font-size: 14px;
+    cursor: pointer;
+}
+
+.MyLearning{
+    position: relative;
+}
+
+.MyLearning-popup{
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+    width: 100px;
+    top: 25px;
+    right: 0;
+    display: none;
+    transition: all 1s ease-in-out;
+}
+
+.MyLearning:hover .MyLearning-popup{
+    display: block;
 }
 
 .categories{
@@ -72,12 +98,24 @@ body{
     transition: all 0.25s ease-in-out;
     cursor: pointer;
     height: 12px;
-    margin:2px;
 }
 
 .categories p:hover{
     background-color: rgb(250, 0, 250);
     transform: scale(1.05);
+}
+
+.image{
+    position: relative;
+}
+
+.sale{
+    background-color: white;
+    border: solid black 2px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .image img{
